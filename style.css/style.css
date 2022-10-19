@@ -82,7 +82,7 @@ color: #000000;
     background: #FFFFFF;
     border-radius: 10px;
 }
-.about {
+#about {
     height: 850px;
     background: #0E1C25;
 }
@@ -121,7 +121,7 @@ color: #FFFFFF;
 text-align: center;
 padding: 30px 0 47px 0;
 }
-.hobby {
+#hobby {
     height: 850px;
     background: #5C6B81;
 }
@@ -207,4 +207,7 @@ font-weight: 400;
 font-size: 40px;
 line-height: 49px;
 color: #FFFFFF;
+}
+footer .container {
+    justify-content: space-around;
 }
