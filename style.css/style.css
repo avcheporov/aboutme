@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+body {
+    user-select: none;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1188px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.menu {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 26px;
+}
+.nav {
+    background: #000000;
+    /* border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+    height: 76px;
+}
+.logo {
+    padding: 14px 0;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+.link {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-left: 75px;
+}
+.baner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(../image/baner.jpg);
+    min-height: 850px;
+}
+.baner__text {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #000000;
+}
+.baner__link {
+    
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 42px;
+
+color: #000000;
+}
+.button {
+    margin-top: 151px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 57px;
+    width: 237px;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+.about {
+    height: 850px;
+    background: #0E1C25;
+}
+.ava {
+    width: 500px;
+    height: 600px;
+}
+.text {
+    max-width: 466px;
+    width: 100%;
+}
+h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 42px;
+    color: #FFFFFF;
+    margin-bottom: 62px;
+}
+.text__about {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: justify;
+    color: #FFFFFF;
+}
+h2 {
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+color: #FFFFFF;
+text-align: center;
+padding: 30px 0 47px 0;
+}
+.hobby {
+    height: 850px;
+    background: #5C6B81;
+}
+.box__hobby {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 312px;
+    height: 550px;
+    background: #B12B06;
+    border-radius: 10px;
+}
+.image__hobby {
+    width: 282px;
+    height: 265px;
+    border-radius: 10px;
+    margin: 15px 15px;
+}
+h4 {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+text-align: center;
+color: #FFFFFF;
+padding-top:  30px;
+padding-bottom: 60px;
+}
+h5 {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+color: #FFFFFF;
+text-align: center;
+}
+.hobby__text {
+    margin-top: 20px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+color: #FFFFFF;
+max-width: 264px;
+width: 100%;
+}
+.link__hobby {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+color: #000000;
+width: 168px;
+height: 40px;
+background: #FFFFFF;
+border-radius: 10px;
+margin-bottom: 35px;
+margin-top: 28px;
+}
+footer {
+height: 243px;
+background: #000000;
+}
+.contact {
+    width: 53px;
+height: 52px;
+}
+h6 {
+    padding: 46px;
+    text-align: center;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 49px;
+color: #FFFFFF;
+}
